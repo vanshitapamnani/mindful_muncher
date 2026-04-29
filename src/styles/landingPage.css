@@ -1,9 +1,10 @@
 /* Section */
 .hero {
   min-height: 80vh;
-  background: linear-gradient(135deg, #e9d5f2, #f8e9f1);
+  background: linear-gradient(135deg, #e1b9f4, #f4bedb);
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
   padding-top: 80px;
 }
 
@@ -95,7 +96,7 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  background-color: #cecacd;
+  /* background-color: #cecacd; */
   border-radius: 10px;
 }
 

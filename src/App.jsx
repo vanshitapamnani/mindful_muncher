@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar";
+import LandingPage from "./sections/landingPage";
 function App() {
   return (
     <div>
-      <h1>mindful_muncher</h1>
+      <Navbar />
+      <LandingPage />
     </div>
   );
 }

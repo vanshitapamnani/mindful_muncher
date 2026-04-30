@@ -1,3 +1,16 @@
 body {
   background: #f3eef7;
+  cursor: none;
+}
+.cursor-dot {
+  width: 30px;
+  height: 30px;
+  background: #a855f7;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
 }

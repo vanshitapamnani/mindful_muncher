@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./sections/landingPage";
 import About from "./sections/about";
 import Method from "./sections/method";
+import ForYou from "./sections/Foryou";
 import { useEffect, useRef } from "react";
 
 import "./styles/index.css";
@@ -30,6 +31,7 @@ function App() {
       <LandingPage />
       <About />
       <Method />
+      <ForYou />
     </>
   );
 }

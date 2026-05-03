@@ -1,0 +1,48 @@
+.for-you {
+  padding: 80px 20px;
+  background: #e6e0e8;
+  text-align: center;
+}
+
+.for-you-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.for-you h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #2d1f3d;
+}
+
+/* LIST */
+.for-you-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ITEM */
+.for-you-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #fff;
+  padding: 18px 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+/* ICON */
+.for-you-item svg {
+  color: #a855f7;
+  flex-shrink: 0;
+}
+
+/* TEXT */
+.for-you-item p {
+  margin: 0;
+  color: #444;
+  font-size: 15px;
+}

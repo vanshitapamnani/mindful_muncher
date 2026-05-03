@@ -1,0 +1,150 @@
+/* SECTION */
+.programs {
+  padding: 80px 20px;
+  background: #f3eef7;
+  text-align: center;
+}
+
+.programs-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.programs h2 {
+  font-size: 34px;
+  color: #2d1f3d;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  color: #6b6b6b;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+/* GRID */
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.program-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: left;
+  border: 1px solid #eee;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.program-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* HIGHLIGHT CARD */
+.program-card.highlight {
+  border: 2px solid #a855f7;
+  transform: scale(1.04);
+  box-shadow: 0 15px 35px rgba(168, 85, 247, 0.15);
+}
+
+/* BADGE */
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #7b3fe4;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* TITLE */
+.program-card h3 {
+  font-size: 22px;
+  color: #2d1f3d;
+  margin-bottom: 8px;
+}
+
+/* DESCRIPTION */
+.program-card .desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* PRICE */
+.program-card h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1f1f1f;
+}
+
+.program-card h2 span {
+  font-size: 14px;
+  color: #777;
+}
+
+/* FEATURES */
+.program-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.program-card li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* ICON COLOR */
+.program-card li svg {
+  color: #a855f7;
+}
+
+/* BUTTONS */
+.primary-btn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #c084fc, #9333ea);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  transform: scale(1.03);
+}
+
+/* OUTLINE BUTTON */
+.outline-btn {
+  width: 100%;
+  padding: 13px;
+  border-radius: 25px;
+  border: 1.5px solid #a855f7;
+  background: transparent;
+  color: #7b3fe4;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.outline-btn:hover {
+  background: #f3e8ff;
+}

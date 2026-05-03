@@ -3,6 +3,7 @@ import LandingPage from "./sections/landingPage";
 import About from "./sections/about";
 import Method from "./sections/method";
 import ForYou from "./sections/Foryou";
+import Programs from "./sections/program";
 import { useEffect, useRef } from "react";
 
 import "./styles/index.css";
@@ -32,8 +33,11 @@ function App() {
       <About />
       <Method />
       <ForYou />
+      <Programs />
     </>
   );
 }
 
 export default App;
+//on clicking book a call btn - calendify will open to book a call
+// on clicking any plan it will redirect to whatsapp to communicate

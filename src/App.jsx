@@ -5,6 +5,8 @@ import Method from "./sections/method";
 import ForYou from "./sections/Foryou";
 import Programs from "./sections/program";
 import FAQ from "./sections/FAQ";
+import Footer from "./components/Footer";
+
 import { useEffect, useRef } from "react";
 
 import "./styles/index.css";
@@ -36,6 +38,7 @@ function App() {
       <ForYou />
       <Programs />
       <FAQ />
+      <Footer />
     </>
   );
 }

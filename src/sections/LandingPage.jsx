@@ -22,7 +22,15 @@ function LandingPage() {
             personalized empathy.
           </p>
 
-          <a href="#contact" className="hero-btn">
+          <a
+            href="#contact"
+            className="hero-btn"
+            onClick={() =>
+              window.open(
+                "https://calendly.com/pamnanivanshita/15min",
+                "_blank",
+              )
+            }>
             Book Free Hormone Check-In
           </a>
 

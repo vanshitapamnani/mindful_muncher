@@ -1,0 +1,196 @@
+footer {
+  margin-top: 100px;
+}
+
+/* CTA SECTION */
+
+.cta-section {
+  background: #8b5fbf;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 100px 10%;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.cta-section h2 {
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+
+.cta-section p {
+  font-size: 20px;
+  line-height: 1.8;
+
+  max-width: 850px;
+  margin: auto;
+
+  opacity: 0.95;
+}
+
+.cta-btns {
+  margin-top: 40px;
+
+  background: white;
+  color: #8b5fbf;
+
+  border: none;
+
+  padding: 18px 42px;
+
+  border-radius: 999px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.cta-btns:hover {
+  transform: translateY(-3px);
+}
+
+/* MAIN FOOTER */
+
+.footer-bottom {
+  background: #f8f5f8;
+
+  padding: 70px 10% 30px;
+
+  border-top: 1px solid #eadcf4;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+
+  flex-wrap: wrap;
+}
+
+/* BRAND */
+
+.footer-brand {
+  flex: 1;
+  min-width: 260px;
+}
+
+.footer-brand h3 {
+  font-size: 30px;
+  color: #7c3aed;
+
+  margin-bottom: 22px;
+}
+
+.footer-brand p {
+  color: #666;
+  line-height: 1.8;
+
+  max-width: 380px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+
+  margin-top: 28px;
+}
+
+.footer-socials a {
+  width: 44px;
+  height: 44px;
+
+  background: #efe7f7;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #7c3aed;
+
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  background: #7c3aed;
+  color: white;
+}
+
+/* CONTACT */
+
+.footer-contact {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-contact h4,
+.footer-links h4 {
+  margin-bottom: 24px;
+
+  font-size: 20px;
+}
+
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 18px;
+
+  color: #666;
+}
+
+/* LINKS */
+
+.footer-links {
+  flex: 1;
+  min-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  margin-bottom: 16px;
+
+  color: #666;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #7c3aed;
+}
+
+/* COPYRIGHT */
+
+.footer-copyright {
+  border-top: 1px solid #eadcf4;
+
+  margin-top: 60px;
+  padding-top: 24px;
+
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  gap: 16px;
+
+  color: #777;
+
+  font-size: 15px;
+}
+
+.footer-copyright span {
+  font-style: italic;
+}

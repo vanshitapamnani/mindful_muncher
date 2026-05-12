@@ -1,7 +1,6 @@
 .faq-section {
   padding: 120px 10%;
-  background: #f8e2f8;
-  width: 100%;
+  background: #f7eefc;
 }
 
 .faq-section h2 {
@@ -17,7 +16,7 @@
 }
 
 .faq-item {
-  border-bottom: 1px solid #969494;
+  border-bottom: 1px solid #515050;
   padding: 18px 0;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .faq-answer {
-  margin-top: 10px;
+  margin-top: 10px auto 0;
 
   font-size: 20px;
   line-height: 1.7;

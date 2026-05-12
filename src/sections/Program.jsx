@@ -29,7 +29,11 @@ const ProgramCard = ({
         ))}
       </ul>
 
-      <button className={highlight ? "primary-btn" : "outline-btn"}>
+      <button
+        className={highlight ? "primary-btn" : "outline-btn"}
+        onClick={() =>
+          window.open("https://calendly.com/pamnanivanshita/15min", "_blank")
+        }>
         {buttonText}
       </button>
     </div>
@@ -38,7 +42,7 @@ const ProgramCard = ({
 
 const Programs = () => {
   return (
-    <section className="programs">
+    <section id="pro" className="programs">
       <div className="programs-container">
         <h2>Hormone Healing Programs</h2>
         <p className="subtext">

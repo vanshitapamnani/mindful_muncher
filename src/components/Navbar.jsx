@@ -31,21 +31,21 @@ const Navbar = () => {
 
           <li>
             <a
-              href="#programs"
-              className={active === "programs" ? "active" : ""}
-              onClick={() => setActive("programs")}>
+              href="#pro"
+              className={active === "program" ? "active" : ""}
+              onClick={() => setActive("program")}>
               Programs
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a
               href="#recipes"
               className={active === "recipes" ? "active" : ""}
               onClick={() => setActive("recipes")}>
               Recipes
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a
@@ -58,7 +58,12 @@ const Navbar = () => {
         </ul>
 
         {/* CTA Button */}
-        <a href="#contact" className="cta-btn">
+        <a
+          href="#contact"
+          className="cta-btn"
+          onClick={() =>
+            window.open("https://calendly.com/pamnanivanshita/15min", "_blank")
+          }>
           BOOK FREE CALL
         </a>
       </div>

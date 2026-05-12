@@ -1,5 +1,6 @@
 import "../styles/landingPage.css";
-import photo from "../assets/photo.jpg";
+// import photo from "../assets/photo.jpg";
+import myPortfolioPhoto from "../assets/myPortfolioPhoto.jpeg";
 
 function LandingPage() {
   return (
@@ -37,7 +38,7 @@ function LandingPage() {
 
         {/* RIGHT IMAGE */}
         <div className="hero-image">
-          <img src={photo} alt="dietitian" />
+          <img src={myPortfolioPhoto} alt="dietitian" />
         </div>
       </div>
     </section>

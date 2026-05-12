@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar";
-import LandingPage from "./sections/landingPage";
-import About from "./sections/about";
-import Method from "./sections/method";
+import LandingPage from "./sections/LandingPage";
+import About from "./sections/About";
+import Method from "./sections/Method";
 import ForYou from "./sections/Foryou";
-import Programs from "./sections/program";
+import Programs from "./sections/Program";
 import FAQ from "./sections/FAQ";
 import Footer from "./components/Footer";
 

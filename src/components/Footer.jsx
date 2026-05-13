@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 import "../styles/footer.css";
 
 function Footer() {
@@ -37,9 +38,9 @@ function Footer() {
             </p>
 
             <div className="footer-socials">
-              {/* <a href="#">
-                <InstagramIcon size={20} />
-              </a> */}
+              <a href="https://www.instagram.com/dietitian_in_kitchen/">
+                <FaInstagram size={20} />
+              </a>
 
               {/* <a href="#">
                 <Linkedin size={20} />

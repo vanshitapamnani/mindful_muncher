@@ -36,7 +36,7 @@ function Footer() {
               Helping women build healthier relationships with food, hormones,
               and their bodies through mindful nutrition.
             </p>
-
+            <p> Connect with me 🌸</p>
             <div className="footer-socials">
               <a href="https://www.instagram.com/dietitian_in_kitchen/">
                 <FaInstagram size={20} />
